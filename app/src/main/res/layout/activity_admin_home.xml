@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHomeActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2" />
+
+    <ImageView
+        android:id="@+id/ivLogo_AdminHome"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="168dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:shadowColor="#00FFFFFF"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Aplikasi Pencarian Klub Basket \n di \n DKI JAKARTA"
+        android:textColor="#F56A00"
+        android:textSize="23sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/ivLogo_AdminHome"
+         />
+
+    <LinearLayout
+        android:id="@+id/button_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView"
+        android:paddingTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        >
+
+        <Button
+            android:id="@+id/btn_addKlub"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add Klub"
+            android:fontFamily="@font/montserrat_bold"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/btn_lvAdmin"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:clickable="true"
+            android:text="List Klub"
+            android:fontFamily="@font/montserrat_bold"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

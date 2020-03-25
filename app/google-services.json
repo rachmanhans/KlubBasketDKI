@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "116186188634",
+    "firebase_url": "https://klub-basket-dki.firebaseio.com",
+    "project_id": "klub-basket-dki",
+    "storage_bucket": "klub-basket-dki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116186188634:android:eb6435becbff28ad45c163",
+        "android_client_info": {
+          "package_name": "com.example.klubbasketdki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116186188634-omfighmb089pd6e5fld04ch8jo3hsv9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.klubbasketdki",
+            "certificate_hash": "07ba823778f44a43889c1bd6055d926992974229"
+          }
+        },
+        {
+          "client_id": "116186188634-3s4rtn87ha7q77352n6jeoaf3nmqph3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWcCocv_w3EJfCVph6kWyisAymDmVHOn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116186188634-3s4rtn87ha7q77352n6jeoaf3nmqph3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

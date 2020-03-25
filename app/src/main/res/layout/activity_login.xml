@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background" />
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="168dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+<RelativeLayout
+    android:id="@+id/layoutlogin"
+    android:layout_marginRight="80dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/txtLogin"
+    android:layout_marginTop="50dp"
+    android:layout_alignParentStart="true"
+    android:background="@drawable/sp_rectangle_etlogin"
+    android:outlineAmbientShadowColor="#424242"
+    android:elevation="@dimen/cardview_default_radius"
+    >
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:hint="Username"
+        android:paddingStart="10dp"
+        android:drawablePadding="17dp"
+
+
+         />
+    <View
+        android:id="@+id/vsaparator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e2e2e2"
+        android:layout_below="@id/et_username"/>
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:paddingStart="10dp"
+        android:drawablePadding="17dp"
+        android:hint="***********"
+        android:inputType="textPassword"
+        android:layout_below="@id/vsaparator"
+
+        />
+
+
+</RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_login"
+        android:layout_below="@id/txtLogin"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="67dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+
+</RelativeLayout>
